@@ -81,7 +81,7 @@ import os
 import datetime
 
 class ToDoList:
-    def _init_(self):
+    def __init__(self):
         self.tasks = []
 
     def load_tasks(self):
